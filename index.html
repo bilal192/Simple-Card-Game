@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <script async src="cardPlaying.js"></script>
+    <title>Card Playing </title>
+</head>
+<body>
+    <div class="main">
+        <div class="scors">
+           <div><p class="score_computer"  id="score_computer">Computer Score: 5/0</p></div>
+           <div><p class="score_Player" id="score_Player">Player Score: 5/0</p></div>                    
+        </div>
+        <div class="container">
+            <div id="wrapper" style="display: none;">
+                <div id="computerCard"><p id="computerCard_id"></p></div>
+                <div id="playerCard"><p id="playerCard_id"></p></div>
+            </div>
+            <p id="winner"></p>
+            <button id="getCards_btn" class="clicktbn" onclick="showCards()">Get Card</button>
+        </div>    
+    </div>
+    
+
+</body>
+</html>

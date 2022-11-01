@@ -1,0 +1,63 @@
+.container{
+    width: 450px;
+    height: 450px;
+    border: 0.5px solid;
+    border-color: #663300 ;
+    background-color: #006600db;
+    border-radius: 20px;
+
+}
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+  
+}
+#computerCard, #playerCard{
+    width: 100px;
+    height: 145px;
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 15px;
+  
+}
+
+.clicktbn{
+background-color: #DC143C ;
+font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;
+margin-left: 167px;
+margin-top: 60px;
+width: 100px;
+height: 35px;
+}
+.scors{
+    display: flex;  
+    justify-content: space-around;
+    flex-direction: row;
+     margin-right: 190px;
+}
+
+.score_Player{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    
+} 
+.score_computer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;    
+}
+
+#computerCard_id, #playerCard_id{
+    font-size: 250%;
+}
+
+#winner{
+    color: red;
+    font-size: larger;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
