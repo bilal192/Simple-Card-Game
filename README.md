@@ -5,7 +5,7 @@
 
 A simple card game, built in JS HTML and CSS.
 
-## How it is word?
+## How it is work?
 
 - The user presses the 'GET CARD' button.
 - After that, two cards will appear to the user, one for him and one for the BOOT.
