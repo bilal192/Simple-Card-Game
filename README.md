@@ -1,4 +1,6 @@
-# README
+#README
+
+
 ## Simple Card Game
 
 A simple card game, built in JS HTML and CSS.
@@ -10,7 +12,6 @@ A simple card game, built in JS HTML and CSS.
 - A card is chosen randomly, after shuffling the cards 104 times (50 * 2).
 - The card with the highest value wins.
 - The game continues in rounds, and the first player to score 5 points, wins!.
-- 
 
 
 ## How To Play the game
