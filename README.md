@@ -1,4 +1,4 @@
-#README
+# README
 
 
 ## Simple Card Game
