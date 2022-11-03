@@ -95,11 +95,10 @@ getCard.addEventListener('click', ()=> {
 
     if(players_data.score_computer == 5 || players_data.score_Player == 5){
         players_data.score_Player > players_data.score_computer ? window.confirm("Congratulations, You Won The Game! \nPlay Again") : window.confirm("This Is Awkward The Computer Wooon!! Try Again")
-
-    
-        document.getElementById("score_Player").innerHTML = "Player Score: 5/0";
-        document.getElementById("score_computer").innerHTML = "Computer Score: 5:/0";   
-        window.location.reload();                                          
+        players_data.score_computer = 0;
+        players_data.score_Player = 0;
+        document.getElementById("score_Player").innerHTML = `Player Score: 5/${players_data.score_Player}`;
+        document.getElementById("score_computer").innerHTML = `Computer Score: 5:/${players_data.score_computer}`;   
+                                        
     }
-    
 })
