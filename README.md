@@ -17,6 +17,6 @@ A simple card game, built in JS HTML and CSS.
 ## How To Play the game
 
 - Press the 'Code' button on the right.
-- The Downloaded the ZIP file.
+- Downloaded the ZIP file.
 - Then Open the index.HTML file.
 - Have fun and GOOD LUCK
